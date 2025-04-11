@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "9795361e-b84a-4d13-9b2f-c0e2988c370a",
+		"name": "Consulta CEP - Dev Junior",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38647810"
+	},
+	"item": [
+		{
+			"name": "Buscar CEP da Tecnospeed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://viacep.com.br/ws/87015-310/json/",
+					"protocol": "https",
+					"host": [
+						"viacep",
+						"com",
+						"br"
+					],
+					"path": [
+						"ws",
+						"87015-310",
+						"json",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar por logradouro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://viacep.com.br/ws/PR/Maringa/Rua Vitório Balani/json/",
+					"protocol": "https",
+					"host": [
+						"viacep",
+						"com",
+						"br"
+					],
+					"path": [
+						"ws",
+						"PR",
+						"Maringa",
+						"Rua Vitório Balani",
+						"json",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
